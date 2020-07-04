@@ -1,0 +1,89 @@
+/*CSS Reset*/
+*{  text-decoration: none ;
+    margin:0;
+    padding:0;
+}
+
+/* CSS Variables */
+
+:root{
+    --navbar-height:59px;
+}
+
+/* navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#navbar{
+  position: relative;
+}
+#logo{
+    
+    margin: 34px 45px;
+}
+
+#logo img{
+    height:56;
+    margin:-20px -21px;
+}
+/* nav bar list styling */
+#navbar ul{
+    display:flex;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+    opacity:0.4;
+
+
+}
+#navbar ul{
+    
+    list-style:none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color:white; 
+   display:block;
+   padding: 0px 22px;
+   border-radius:20px ;
+   text-decoration: none;
+}
+
+
+
+
+ h4{ position: relative;
+     color: rgb(238, 82, 82);
+     display: inline;
+     left: 30px;
+     padding: 16px 167px;
+     border-radius:20px ;
+ }
+
+ h3{color: bisque;
+   text-align: left;
+
+ }
+ 
+ h2{
+    font-family: 'Itim', cursive;
+     color:rgb(253, 253, 253);
+     position: relative;
+     padding: 32px;
+ }
+ 
+ p{
+    font-family: 'Itim', cursive;
+    color:rgb(255, 255, 255);
+    position: relative;
+    padding: 32px;
+ }
+
+ 
